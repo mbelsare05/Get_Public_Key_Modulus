@@ -2,7 +2,7 @@ import Crypto.PublicKey.RSA
 import M2Crypto
 import sys
 
-help_text = """Usage : Get_Public_Key_Modulus.py In_Public.cer Out_Modulus.pem
+help_text = """Usage : Get_Public_Key_Modulus.py [Input Public Certificate] [Output file name]
 
 """
 
