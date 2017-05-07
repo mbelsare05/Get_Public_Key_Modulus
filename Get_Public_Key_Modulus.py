@@ -12,7 +12,7 @@ public_exponent = key.e
 f =  open(sys.argv[2],'wb')
 f.write(format(modulus,'02X'))
 f.close()
-
+#print modulus in hex
 print format(modulus,'02X')
 print 
 
